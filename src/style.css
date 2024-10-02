@@ -98,6 +98,29 @@ dialog button:hover {
 background-color: #c0392b;
 }
 
+.footer {
+margin-top: 40px;
+text-align: center;
+padding: 20px;
+background-color: var(--secondary-color);
+border-radius: 10px;
+}
+
+.footer p {
+margin: 5px 0;
+}
+
+.footer a {
+color: var(--accent-color);
+text-decoration: none;
+transition: color 0.3s ease;
+}
+
+.footer a:hover {
+color: #c0392b;
+text-decoration: underline;
+}
+
 @media (max-width: 768px) {
 h1 {
     font-size: 2rem;

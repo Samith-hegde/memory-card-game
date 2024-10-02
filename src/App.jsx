@@ -3,6 +3,7 @@ import Cards from './components/Cards.jsx';
 import Score from './components/Score.jsx';
 import RestartGame from './components/RestartGame.jsx';
 import WonGame from './components/WonGame.jsx';
+import Footer from './components/Footer.jsx';
 import './style.css';
 
 function App() {
@@ -46,6 +47,7 @@ function App() {
       <Cards onSelectCard={handleSelectCard}/>
       <RestartGame handleRestart={handleRestart}/>
       <WonGame handleRestart={handleRestart}/>
+      <Footer />
     </>
   )
 }
