@@ -27,7 +27,7 @@ function App() {
     if (score > highScore) {
       setHighScore(score);
     }
-    if (clickedCards.length === 10) {
+    if (clickedCards.length === 12) {
       dialogWon.showModal();
     }
   }, [score, clickedCards]);

@@ -5,6 +5,8 @@ import gruntle from '../assets/gruntle.jpg';
 import icarium from '../assets/icarium.jpg';
 import jack from '../assets/jack.jpg';
 import kalam from '../assets/kalam.jpg';
+import karsa from '../assets/karsa.jpg';
+import korlat from '../assets/korlat.jpg';
 import paran from '../assets/paran.jpg';
 import rake from '../assets/rake.jpg';
 import tavore from '../assets/tavore.jpg';
@@ -17,9 +19,11 @@ const images = [
     { id: 5, src: icarium, alt: 'Icarium' },
     { id: 6, src: jack, alt: 'Jack' },
     { id: 7, src: kalam, alt: 'Kalam' },
-    { id: 8, src: paran, alt: 'Paran' },
-    { id: 9, src: rake, alt: 'Rake' },
-    { id: 10, src: tavore, alt: 'Tavore' },
+    { id: 8, src: karsa, alt: 'Karsa' },
+    { id: 9, src: korlat, alt: 'Korlat' },
+    { id: 10, src: paran, alt: 'Paran' },
+    { id: 11, src: rake, alt: 'Rake' },
+    { id: 12, src: tavore, alt: 'Tavore' },
 ];
 
 export default images;
